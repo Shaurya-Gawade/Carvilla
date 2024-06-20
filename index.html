@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carvilla</title>
+    <link rel="stylesheet" href="../design/design.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        padding-left: 60px;
+        padding-bottom: 20px;
+    }
+    li{
+        padding: 10px;
+        padding-bottom: 0;
+    }
+    footer{
+        background-color: black;
+        color: white;
+    }
+
+    input{
+        text-align: center;
+
+  width: 800px;
+  padding: 12px 18px;
+  margin: 8px ;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#submit{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 10px;
+    width: 80px;
+  border-radius: 4px;
+  display: block;
+}
+
+#submit:hover {
+  background-color: #45a049;
+}
+
+#form{
+    width: 900px;
+    margin-left: 250px;
+}
+</style>
+<body>
+    <!---------------------------------------------------------------main image and form--------------------------------------------------------------------------->
+    <header>
+        <div id="background" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(4, 42, 255, 0.349)), url(../photos/main\ image.jfif);background-repeat: no-repeat;background-size: cover;width: 1423px;"><br>
+
+                <h2 id="mainhead">Carvilla</h2><br><br>
+
+                <button>HOME</button>
+                <button>SERVICE</button>
+                <button>FEARURED CARS</button>
+                <button>NEW CARS</button>
+                <button>BRANDS</button>
+                <button>CONTACT</button><br><br>
+                <hr>
+                <br><br><br><br><br><br><br><br><br><br>
+            <div>
+                
+                <h2>GET YOUR DESIRED CAR IN RESONABLE PRICE</h2><br>
+                <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</strong></p>
+                <button id="contactus">Contact Us</button>
+            </div><br>
+        </div>
+    </header><br><br><br>
+    <Header>
+        <div id="form" style="border: 2px solid black;border-radius: 10px; "><br>
+            <form action="#">
+              <label for="fname" style="padding-left: 20px;">First Name:-</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname" style="padding-left: 20px;">Last Name:-</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country" style="padding-left: 20px;">Country:-</label>
+              <select id="country" name="country">
+                <option value="none"></option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              <option value="india">INDIA</option>
+          
+              </select>         <br><br>
+              <input  id="submit" type="submit" value="Submit"><br>
+            </form>
+          </div>
+        </Header>
+   <br><br>
+
+<!-----------------------------------------------------------promises--------------------------------------------------------------------------->
+    <nav >
+        <ul style="padding-left: 190px;">
+        <li id="about">
+            <div>
+            <img src="../photos/img 1.jpg" style="width: 100px;" alt="#"><br><br><br><br>
+            <h4>Largest Delarship Of Cars</h4><br>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+        </div>
+    </li>
+    <li id="about">
+        <div>
+            <img src="../photos/img 2.png" style="width: 100px;" alt="#"><br><br><br><br>
+            <h4>Unlimited Repair Warranty</h4><br>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+        </div>
+    </li>
+    <li id="about">
+        <div>
+            <img src="../photos/img 3.webp" width="95px" alt="#"><br><br><br><br>
+            <h4>Insurance Support</h4><br>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+        </div>
+        </li>
+    </ul>
+    </nav><br><br><br>
+
+    <!----------------------------------------------------------cars---------------------------------------------------------------------->
+
+    <nav>
+        <div>
+            <h1 style="font-size: xx-large;text-align: center;"> Featured Cars</h1>
+            <p style="color: black;">Checkout the Featured Cars</p>
+        </div><br><br><br>
+        <ul>
+        <li id="cars">
+            <div>   <br>
+            <img src="../photos/car1.png" alt="#"></img><br><br>
+                <h3>BMW 6-Series Gran Coupe</h3>
+                <h3>$89,395</h3>
+                <p id="carpara">Neque porro quisquam est, qui dolorem ipsum .</p><br>
+            </div>
+        </li><br>
+        <li id="cars">
+            <div><br>
+            <img src="../photos/car2.png" alt="#"></img><br><br>
+                <h3>Chevrolet Camaro WMV20</h3>
+                <h3>$66,575</h3>
+                <p id="carpara">Neque porro quisquam est, qui dolorem ipsum .</p><br>
+            </div>
+        </li><br>
+        <li id="cars">
+            <div><br>
+            <img src="../photos/car3.png" alt="#"></img><br><br>
+                <h3>Lamborghini V520</h3>
+                <h3>$125,250</h3>
+                <p id="carpara">Neque porro quisquam est, qui dolorem ipsum .</p><br>
+            </div>
+        </li><br>
+        </ul>
+        <ul>
+        <li id="cars">
+            <div><br>
+            <img src="../photos/img4.png" alt="#"></img><br><br>    
+                <h3>BMW Xseries-6</h3>
+                <h3>$75,800</h3>
+                <p id="carpara">Neque porro quisquam est, qui dolorem ipsum.</p><br>
+            </div>
+        </li><br>
+        <li id="cars">
+            <div><br>
+            <img src="../photos/img5.png" alt="#"></img><br><br>
+                <h3>BMW 8-Series Coupe</h3>
+                <h3>$56,000</h3>
+                <p id="carpara">Neque porro quisquam est, qui dolorem ipsum.</p><br>
+            </div>
+        </li><br>
+        <li id="cars">
+            <div><br>
+            <img src="../photos/img6.png" alt="#"></img><br><br>
+                <h3>Infiniti Z5</h3>
+                <h3>$36,850</h3>
+                <p id="carpara">Neque porro quisquam est, qui dolorem ipsum.</p><br>
+            </div>
+        </li>
+    </ul>
+    </nav><br><br>
+
+
+    <!----------------------------------------------------------------fotter--------------------------------------------------------------------->
+    <footer>
+        <div><br>
+            <ul>
+                <li>
+                <h1 style="padding-left: 30px;">CARVILLA</h1><br>
+                <pre>
+                <p style="text-align: left;"> Ased do eiusm tempor incidi ut labore 
+ et dolore magnaian aliqua. Ut enim ad 
+ minim veniam.  </p><br></pre>
+        </li>
+        <li>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d56014.503532207316!2d78.38333!3d29.33333!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjnCsDE5JzYwLjAiTiA3OMKwMjInNjAuMCJF!5e1!3m2!1sen!2sin!4v1718884747413!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </li>
+        <li>
+            <table id="carbrands">
+                <tr>
+                    <th>
+                        TOP BRANDS:
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.lamborghini.com/en-en">Lamborghini</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.ferrari.com/en-EN">Ferrari</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.audi.in/in/web/en.html">Audi</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.bmw.in/en/index.html">BMW</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.volkswagen.co.in/en.html">Volkswagen</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.toyotabharat.com/">Toyota</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.nissan.in/">Nissan</a>
+                    </td>
+                </tr>
+            </table>
+        </li>
+            </ul>
+        </div>
+
+        
+    </footer>
+</body>
+</html>

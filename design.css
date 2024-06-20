@@ -1,0 +1,133 @@
+*:hover{
+    transition: 0.3s ease;
+}
+/*home buttons*/
+ button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+}
+/*background image*/
+#background{
+    height: 700px;
+    width:800px;
+}
+/*main carvilla*/
+#mainhead{
+    text-align: left;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+/*para & heading*/
+h2,p{
+    color: white;
+}
+
+h2{
+    font-size: xx-large;
+    margin-left: 50px;
+    text-align: center;
+}
+
+p{
+    font-size:larger ;
+    text-align: center;
+    
+}
+/*contact button*/
+#contactus{
+    width: 230px;
+    height: 60px;
+    background: #4e4ffa;
+    color: white;
+    font-size: larger;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+
+ /*promises*/
+#about{
+    border: 1px solid rgba(122, 111, 111, 0.425);  
+    background-color: white;
+    color: black; 
+}
+#about:hover{
+    background-color: rgba(0, 0, 0, 0.466);
+    color: rgba(0, 0, 0, 0.404);
+}
+
+
+#about div{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+#about div h4{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(51, 51, 51);
+
+}
+#about div p{
+    font-size: larger;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.541);
+}
+
+/*cars image li*/
+
+#cars{
+    border: 1px solid rgba(122, 111, 111, 0.425);  
+    background-color: white;
+    color: black; 
+    border-radius: 10px;
+}
+#cars:hover{
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+}
+
+
+img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#carpara{
+    color: black;
+    text-align: left;
+}
+
+/*social*/
+#social a i{
+    background-color: white;
+    color: black;
+    font-size: x-large;
+}
+/*carbrands*/
+tr td a{
+    color: white;
+    font-size: large;
+    text-decoration: underline;
+    padding-left: 120px;
+}
+tr td a:hover{
+    color: rgba(28, 221, 235, 0.541);
+    font-size: larger;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
